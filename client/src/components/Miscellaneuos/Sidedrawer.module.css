@@ -1,0 +1,84 @@
+.searchBarWrapper {
+  background-color: #ecc5fb; /* Light purple background color */
+  border-radius: 10px; /* Border radius for curved edges */
+  padding: 20px; /* Padding around the search bar content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for a subtle elevation effect */
+  max-width: 600px;
+}
+
+.SearchBar {
+  max-width: 600px;
+  height: 280px;
+  padding: 20px;
+  text-align: left;
+}
+
+.searchbarcontainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search_input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.search_button {
+  padding: 10px;
+  background-color: #a200ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+.userList {
+  list-style: none;
+  max-height: 130px;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.userItem {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.userItem:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
+}
+
+.userItem strong {
+  margin-right: 5px;
+}
+
+.userFollower {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #3f3a3a;
+  color: #fff;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.userFollower:hover {
+  background-color: #1c1a1a; /* Change background color on hover */
+}
+
+.userFollower strong {
+  margin-right: 5px;
+}

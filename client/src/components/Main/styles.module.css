@@ -1,0 +1,79 @@
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #382e70;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.white_btn:hover {
+	background-color: #550bc3; /* Green */
+	color: white;
+  }
+
+
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.homepage_box {
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adjust the shadow as needed */
+    padding: 20px;
+    text-align: center;
+	font-weight: bold; /* Add font-weight property */
+	font-size: 26px; /* Increase font size */
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Add box shadow */
+	
+}
+
+.homepage_box h2 {
+    color: #382e70;
+}
+
+.homepage_box p {
+    color: #555;
+    margin-top: 30px;
+}
+
+.homepage {
+	background-image: url("home_picture.jpg");
+}
+
+.black_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	color: white;
+	background-color: rgb(6, 6, 6);
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
